@@ -1,50 +1,107 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-      </head>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="about.html">About</a>
-    <a href="advancedsearch.html">Advanced Search</a>
-    <a href="feedback.html">Feedback</a>
-    <a href="help.html">Help</a>
-    <a href="news.html">News</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
 
-    <h1>Feedback</h1>
-    <title>Your Feedback</title>
- </head>
- <body>
- <form action="http://www.google.com" name="website_review" method="post">
-    <fieldset>
-        <legend>Personal Information</legend>
- <label>Name:</label>
- <input type="text" size="50"><br><br>
- <label>Phone:</label>
- <input type="text" size="50"><br><br>
- <label>Email:</label>
- <input type="email"/><br><br>
- </fieldset>
- <fieldset>
-    <legend>Website review</legend>
- What did you like the most?:<br><br>
- <ul>
- <li><input type="checkbox" name="Information">Information</li>
- <li><input type="checkbox" name="Images">Images</li>
- <li><input type="checkbox" name="Contact">Contact</li> 
-<li><input type="checkbox" name="Depth">Depth of content</li>
- <li><input type="checkbox" name="Help">Help page</li>
- <li><input type="checkbox" name="News">News</li>
- </ul><br>
- Further comments:<br>
- <textarea height="5" width="50"></textarea><br>
- </fieldset>
- <fieldset>
-    <legend>Information Actions</legend>
- <button>Submit your comment</button>
- <button>Reset</button>
- </fieldset>
- </form>
- </body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item ">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="advancedsearch.html" class="nav-link">Advanced Search</a>
+            </li>
+            <li class="nav-item active">
+                <a href="feedback.html" class="nav-link">Feedback</a>
+            </li>
+            <li class="nav-item">
+                <a href="help.html" class="nav-link">Help</a>
+            </li>
+            <li class="nav-item">
+                <a href="news.html" class="nav-link">News</a>
+            </li>
+            <li class="nav-item">
+                <a href="myfriends.html" class="nav-link">My Friends</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+
+    
+    
+      <div class="container-fluid py-5">
+         <h1>Your Feedback</h1>
+         <form action="http://www.google.com" name="website_review" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+         <label>Name:</label>
+         <input type="text" size="50"><br><br>
+         <label>Phone:</label>
+         <input type="text" size="50"><br><br>
+         <label>Email:</label>
+         <input type="email"/><br><br>
+         </fieldset>
+         <fieldset>
+            <legend>Website review</legend>
+         What did you like the most?:<br><br>
+         <ul>
+         <li><input type="checkbox" name="Information">Information</li>
+         <li><input type="checkbox" name="Images">Images</li>
+         <li><input type="checkbox" name="Contact">Contact</li> 
+        <li><input type="checkbox" name="Depth">Depth of content</li>
+         <li><input type="checkbox" name="Help">Help page</li>
+         <li><input type="checkbox" name="News">News</li>
+         </ul><br>
+         Further comments:<br>
+         <textarea height="5" width="50"></textarea><br>
+         </fieldset>
+         <fieldset>
+            <legend>Information Actions</legend>
+         <button>Submit your comment</button>
+         <button>Reset</button>
+         </fieldset>
+         </form>
+
+      </div>
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    <footer class="py-4 text-center">
+        <a class="text-dark" href="http://www.facebook.com" target="_blank">Facebook</a> &nbsp;
+        <a class="text-dark" href="http://www.instagram.com" target="_blank">Instagram</a> &nbsp;
+        <a class="text-dark" href="http://www.twitter.com" target="_blank">Twitter</a>
+    </footer>
+    
+</body>
 </html>
