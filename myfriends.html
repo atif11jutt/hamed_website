@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>My Friends</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -45,7 +45,6 @@
             <li class="nav-item ">
                 <a href="contact.html" class="nav-link">Contact</a>
             </li>
-            
           </ul>
         </div>
       </nav>
@@ -61,24 +60,39 @@
 
       <div class="row">
         <div class="col-sm-4">
-          <a href="#." data-toggle="modal" data-target="#exampleModal" class="text-decoration-none">
-            <img src="person.jpg" alt="person" class="img-fluid">
-            <h2 class="text-dark text-decoration-none">Ali Shahzad</h2>
-          </a>
+          <div class="card">
+            <img class="card-img-top" src="person.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Ali Shahzad</h4>
+              <p class="card-text" data-arabic='لديه تأثير "سحري" يجعل الناس مثله.' data-eng='He has a “magic” effect that makes people like him.'>He has a “magic” effect that makes people like him.</p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">See more</a>
+              <a href="#" class="btn btn-dark translate eng">Translate</a>
+            </div>
+          </div>
         </div>
 
         <div class="col-sm-4">
-          <a href="#." data-toggle="modal" data-target="#exampleModal2" class="text-decoration-none">
-            <img src="person.jpg" alt="person" class="img-fluid">
-            <h2 class="text-dark text-decoration-none">Fatima Qaisar</h2>
-          </a>
+          <div class="card">
+            <img class="card-img-top" src="person2.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Fatima Qaisar</h4>
+              <p class="card-text" data-arabic='أنا أعتز بك ، وأعتز بصداقتنا' data-eng='I cherish you, and I cherish our friendship.'>I cherish you, and I cherish our friendship.</p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">See more</a>
+              <a href="#" class="btn btn-dark translate eng">Translate</a>
+            </div>
+          </div>
         </div>
 
         <div class="col-sm-4">
-          <a href="#." data-toggle="modal" data-target="#exampleModal3" class="text-decoration-none">
-            <img src="person.jpg" alt="person" class="img-fluid">
-            <h2 class="text-dark text-decoration-none">Saleem Muhammad</h2>
-          </a>
+          <div class="card">
+            <img class="card-img-top" src="person3.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Saleem Muhammad</h4>
+              <p class="card-text" data-arabic='يعني الكثير أن تعرف أنك في جانبي.' data-eng="It means so much to know you're on my side.">It means so much to know you're on my side.</p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">See more</a>
+              <a href="#" class="btn btn-dark translate eng">Translate</a>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -100,10 +114,10 @@
       <img src="person.jpg" alt="Los Angeles" class="img-fluid w-100">
     </div>
     <div class="carousel-item">
-      <img src="person.jpg" alt="Chicago" class="img-fluid w-100">
+      <img src="person2.jpg" alt="Chicago" class="img-fluid w-100">
     </div>
     <div class="carousel-item">
-      <img src="person.jpg" alt="New York" class="img-fluid w-100">
+      <img src="person3.jpg" alt="New York" class="img-fluid w-100">
     </div>
   </div>
   
@@ -162,6 +176,7 @@
           </div>
           <div class="modal-body">
             <img src="person.jpg" alt="person" class="img-fluid">
+            <h2>He has a “magic” effect that makes people like him.</h2>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -180,7 +195,8 @@
         </button>
       </div>
       <div class="modal-body">
-        <img src="person.jpg" alt="person" class="img-fluid">
+        <img src="person2.jpg" alt="person" class="img-fluid">
+        <h2>I cherish you, and I cherish our friendship</h2>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -199,7 +215,8 @@
     </button>
   </div>
   <div class="modal-body">
-    <img src="person.jpg" alt="person" class="img-fluid">
+    <img src="person3.jpg" alt="person" class="img-fluid">
+    <h2>It means so much to know you're on my side.</h2>
   </div>
   <div class="modal-footer">
     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
