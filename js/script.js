@@ -13,4 +13,12 @@ jQuery(function($){
             $(this).addClass("eng")
         }
     })
+
+    // login form
+    $("#submit_login").submit(function(e){
+        e.preventDefault();
+        var name = $("#name").val()
+        alert(name + ", Thanks for submitting!")
+        $(this).trigger("reset");
+    })
 })

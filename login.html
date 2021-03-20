@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Search</title>
+    <title>Login</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -24,10 +24,10 @@
             <li class="nav-item ">
                 <a href="index.html" class="nav-link">Home</a>
             </li>
-            <li class="nav-item ">
+            <li class="nav-item">
                 <a href="about.html" class="nav-link">About</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a href="advancedsearch.html" class="nav-link">Advanced Search</a>
             </li>
             <li class="nav-item">
@@ -45,9 +45,11 @@
             <li class="nav-item">
                 <a href="contact.html" class="nav-link">Contact</a>
             </li>
-            <li class="nav-item">
+
+            <li class="nav-item active">
                 <a href="login.html" class="nav-link">Login</a>
             </li>
+            
           </ul>
         </div>
       </nav>
@@ -55,7 +57,43 @@
     
     
       <div class="container-fluid py-5">
-        <h1>Advanced Search</h1>
+        <h1>
+            Login to the website
+        </h1>
+        
+
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-6 mx-auto">
+                <form action="#." id="submit_login">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" class="form-control" required>
+                    <br>
+
+                    <label for="emt_id">Emirate ID</label>
+                    <input type="text" id="emt_id" class="form-control" required pattern="784-[0-9]{4}-[0-9]{7}-[0-9]{1}">
+                    <br>
+
+                    <label for="email">Mail Address</label>
+                    <input type="email" id="email" class="form-control" required>
+                    <br>
+
+                    <label for="pass">Password</label>
+                    <input type="password" id="pass" class="form-control" minlength="8">
+                    <br>
+
+                    <label><input type="checkbox" required> Approve these details</label>
+
+                    <br><br>
+
+                    <p class="text-center">
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </p>
+                </form>
+            </div>
+        </div>
 
       </div>
     
@@ -77,3 +115,7 @@
     
 </body>
 </html>
+
+
+
+
